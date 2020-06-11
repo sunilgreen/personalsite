@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import PDC from '../assets/pdc.png'
 import SOON from '../assets/comingsoon.png'
+import PROVERBIA from '../assets/cover.png';
 import GOPEER from '../assets/gopeer.png'
 import './Styles/MyWork.css'
 
@@ -50,7 +51,10 @@ export default function MyWork({id}) {
 
             <Col id="personalprojects" sm={3}>
                 <h3 className="subtitle">Personal Projects</h3>
-                <img id="comingsoon" src={SOON}></img> 
+                <img id="comingsoon" src={PROVERBIA}></img> 
+                <p className="bodytext">A mobile app built using React Native and Firebase that provides users with the ability to view and save uplifting messages for troubling times. Messages are currated from some of humanity's best 
+                    leaders and a wide variety of religious texts. You can view a demo of the app <a href="https://expo.io/@endians/Proverbia">here</a>. Pending review on the Google Play Store and the App Store.</p>
+               
                 
             </Col>
                 
