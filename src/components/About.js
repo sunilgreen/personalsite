@@ -19,7 +19,7 @@ export default function About({id}) {
                 </p>
                 </Col>
                 <Col>
-                    <img src={Purdue}></img>
+                    <img src={Purdue} alt="Sunil"></img>
                     <br/>
                     <br/>
                 </Col>
