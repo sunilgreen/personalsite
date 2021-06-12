@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import PDC from '../assets/pdc.png'
-import SOON from '../assets/comingsoon.png'
 import PROVERBIA from '../assets/cover.png';
 import GOPEER from '../assets/gopeer.png'
 import './Styles/MyWork.css'
